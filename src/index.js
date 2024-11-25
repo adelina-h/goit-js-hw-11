@@ -2,8 +2,8 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
-import { fetchImg } from '.script/pixabay-api.js';
-import { createGallery, clearGallery } from '.script/render-functions.js';
+import { fetchImg } from './jsFiles/pixabay-api';
+import { createGallery, clearGallery } from './jsFiles/render-functions';
 
 const form = document.querySelector('.search-form');
 const loader = document.querySelector('.loader');
